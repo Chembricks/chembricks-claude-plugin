@@ -5,6 +5,22 @@ All notable changes to this plugin will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] — 2026-07-23
+
+### Changed
+
+- Replaced the broad `chemistry-guide` with the
+  `chembricks-computational-chemistry` skill.
+- Added explicit completion contracts for requested candidate counts,
+  multi-strategy work, failed-candidate replacement, and long-running jobs.
+- Updated scientific method-selection and provenance rules from the live MCP
+  schemas, including energy-dataset compatibility and model-specific caveats.
+- Kept arithmetic, unit conversion, planning, memory, code generation, and
+  generic data science native to Claude while retaining chemistry-specific
+  reaction validation and molecular optimization tools.
+- Documented family-specific polling for async IP/EA, metal-docking, and
+  generic queued jobs.
+
 ## [1.0.0] — 2026-07-22
 
 ### Added

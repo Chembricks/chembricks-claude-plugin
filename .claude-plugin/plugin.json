@@ -1,7 +1,7 @@
 {
   "name": "chembricks",
-  "description": "Chembricks AI — Computational Chemistry: molecular properties (pKa, logP, solubility), retrosynthesis, xTB/CREST simulations, Bayesian optimization, spectroscopy, 99.7M compound screening, and more.",
-  "version": "1.0.0",
+  "description": "Equip Claude with the live Chembricks computational chemistry MCP and rigorous scientific tool-selection guidance.",
+  "version": "1.1.0",
   "author": {
     "name": "Chembricks",
     "url": "https://cmbx.ai"
