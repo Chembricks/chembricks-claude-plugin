@@ -1,0 +1,19 @@
+{
+  "name": "chembricks-ai",
+  "owner": {
+    "name": "Chembricks",
+    "email": "support@chembricks.ai"
+  },
+  "description": "Computational chemistry tools for AI-assisted research",
+  "metadata": {
+    "description": "Computational chemistry tools for AI-assisted research"
+  },
+  "plugins": [
+    {
+      "name": "chembricks",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Computational chemistry tools over MCP"
+    }
+  ]
+}

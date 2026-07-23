@@ -1,0 +1,22 @@
+{
+  "name": "chembricks",
+  "description": "Chembricks AI — Computational Chemistry: molecular properties (pKa, logP, solubility), retrosynthesis, xTB/CREST simulations, Bayesian optimization, spectroscopy, 99.7M compound screening, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chembricks",
+    "url": "https://cmbx.ai"
+  },
+  "homepage": "https://cmbx.ai",
+  "repository": "https://github.com/Chembricks/chembricks-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "chemistry",
+    "computational-chemistry",
+    "cheminformatics",
+    "rdkit",
+    "xtb",
+    "retrosynthesis",
+    "mcp",
+    "science"
+  ]
+}
