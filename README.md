@@ -5,7 +5,9 @@ Computational chemistry tools as native AI tool calls, powered by the
 
 Predict pKa, solubility, and logP. Plan retrosynthetic routes. Run xTB/CREST
 simulations. Optimize molecular libraries with Bayesian optimization. Search
-99.7 million PubChem compounds by similarity. All from inside Claude Code.
+99.7 million PubChem compounds by similarity. All from inside Claude Code,
+with a bundled skill that keeps molecular identity, method compatibility,
+provenance, failures, and requested result counts explicit.
 
 ## Quick Start
 
@@ -48,10 +50,28 @@ Reload plugins and try a tool:
 
 Then ask Claude: *"Predict the pKa and aqueous solubility of aspirin."*
 
+## How the Skill Works
+
+The `chembricks-computational-chemistry` skill treats the live MCP schemas as
+the source of truth and chooses the smallest scientifically adequate tool
+chain for each question. It:
+
+- keeps ordinary arithmetic, unit conversion, planning, memory, and code
+  generation native to Claude;
+- retains `reaction_energy` for atom, charge, stoichiometry, and compatible
+  energy-provenance validation;
+- completes every requested strategy and replaces failed candidates instead
+  of silently counting them as successes;
+- reconciles queued work with the correct job-family result tool; and
+- reports molecular identity, method, conditions, units, limitations, and
+  decision-driving provenance.
+
 ## What You Get
 
-Tools are organized into 21 categories. The server advertises the full,
-up-to-date list via `tools/list` — below are the highlights.
+The live server advertises the complete, up-to-date tool set and schemas.
+Below are the major scientific capabilities. Generic calculator and
+data-science helpers may be exposed by the server, but the bundled skill does
+not route to them when Claude can handle that work natively.
 
 | Category | Examples |
 |----------|---------|
@@ -67,13 +87,12 @@ up-to-date list via `tools/list` — below are the highlights.
 | Spectroscopy | ¹³C NMR (CASCADE-2.0), IR, spectral elucidation |
 | Kinetics | Arrhenius kinetics, reaction families (RMG) |
 | Thermodynamics | Formation enthalpy, entropy, Benson groups (RMG) |
-| Data Science | PCA, k-means, regression, classification |
 | Filtering | Druglikeness, synthetic feasibility, purchasability |
 | Safety | Hazard screening, patent check, CAS lookup |
 | Generation | Analog enumeration, similarity/substructure search |
 | Ranking | Multi-objective Pareto, active learning |
 | Screening | ~99.7M PubChem3D similarity search |
-| Calculations | Arithmetic, unit conversion, reaction energy |
+| Reaction validation | Atom/charge-balanced reaction energies with provenance |
 | Polymer | Repeat-unit descriptors |
 | Jobs | Status, result, cancel for long-running tools |
 

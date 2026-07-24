@@ -12,8 +12,8 @@
     {
       "name": "chembricks",
       "source": "./",
-      "version": "1.0.0",
-      "description": "Computational chemistry tools over MCP"
+      "version": "1.1.0",
+      "description": "Computational chemistry tools and scientific workflow guidance over MCP"
     }
   ]
 }
