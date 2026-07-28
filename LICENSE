@@ -1,21 +1,444 @@
-MIT License
+# ChemBricks Research Use License v1.0
 
-Copyright (c) 2026 Chembricks
+**Effective date:** July 23, 2026  
+**Provider:** ChemBricks Inc.  
+**Contact:** explore@chembricks.ai
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This ChemBricks Research Use License and Terms of Use (the **“License”**) governs access to and use of the ChemBricks API, MCP server, Claude Connector, plugin, websites, documentation, prediction systems, and related hosted services.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+By accessing, invoking, connecting to, or using any part of the Service, you confirm that you have read and accepted this License. If you use the Service on behalf of an organization, you represent that you have authority to bind that organization, and **“you”** includes both you and that organization.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 1. Definitions
+
+### 1.1 Service
+
+The **“Service”** means the ChemBricks API, MCP server, Claude Connector, plugin, hosted prediction systems, software interfaces, documentation, databases, infrastructure, and associated services made available by ChemBricks.
+
+### 1.2 Submitted Materials
+
+**“Submitted Materials”** means all prompts, queries, molecular structures, chemical representations, files, datasets, parameters, instructions, metadata, experimental information, feedback, and other content submitted, transmitted, or otherwise made available through the Service.
+
+### 1.3 Outputs
+
+**“Outputs”** means all predictions, calculations, scores, structures, descriptors, rankings, recommendations, generated data, reports, responses, and other results produced or returned by the Service.
+
+### 1.4 ChemBricks Technology
+
+**“ChemBricks Technology”** means the Service and all underlying or related models, model weights, parameters, algorithms, methods, workflows, software, source code, object code, databases, training data, evaluation data, documentation, interfaces, designs, trade secrets, know-how, and intellectual property.
+
+### 1.5 Derived Data
+
+**“Derived Data”** means aggregated, statistical, analytical, inferred, transformed, annotated, de-identified, operational, performance, usage, telemetry, benchmarking, and other data generated from or relating to the operation or use of the Service, Submitted Materials, or Outputs.
+
+### 1.6 Research Purpose
+
+A **“Research Purpose”** means non-commercial scientific research, academic research, teaching, education, or internal evaluation that is not performed for commercial advantage, monetary compensation, product development, customer delivery, regulatory approval, or revenue-generating activity.
+
+Research conducted by or on behalf of a for-profit organization is not a Research Purpose unless ChemBricks has expressly approved that use in writing.
+
+## 2. Limited research license
+
+Subject to your continued compliance with this License, ChemBricks grants you a limited, revocable, non-exclusive, non-transferable, non-sublicensable, royalty-free right to:
+
+1. access and use the Service solely for a Research Purpose;
+2. internally analyze Outputs generated through your authorized use of the Service; and
+3. include reasonable portions of Outputs in non-commercial academic publications, theses, posters, and presentations, subject to the attribution and publication requirements in this License.
+
+No rights are granted except those expressly stated in this section.
+
+The Service is licensed, not sold. Access to the Service does not constitute a sale, transfer, assignment, or disclosure of any ChemBricks Technology.
+
+## 3. ChemBricks ownership
+
+### 3.1 ChemBricks Technology
+
+ChemBricks and its licensors retain all right, title, and interest in and to the ChemBricks Technology, including all intellectual-property rights, modifications, improvements, derivative works, discoveries, inventions, and know-how relating to it.
+
+Nothing in this License transfers ownership of or grants any implied license to the ChemBricks Technology.
+
+### 3.2 Outputs
+
+As between you and ChemBricks, and to the maximum extent permitted by applicable law, ChemBricks owns all right, title, and interest in and to the Outputs.
+
+ChemBricks grants you only the limited right to use Outputs for a Research Purpose as provided in Section 2.
+
+You may not assert ownership of an Output against ChemBricks, restrict ChemBricks from generating the same or similar Output for another user, or claim that receipt of an Output gives you rights in any ChemBricks model, method, workflow, dataset, or technology.
+
+Outputs may not be unique. The same or similar Outputs may be generated for ChemBricks or other users.
+
+To the extent an Output reproduces identifiable material contained in your Submitted Materials, this section does not transfer any independently existing rights you may have in that pre-existing material. However, your use of the Output remains subject to this License.
+
+### 3.3 Derived Data
+
+ChemBricks exclusively owns all Derived Data and may use, reproduce, modify, disclose, license, commercialize, publish, and otherwise exploit Derived Data for any lawful purpose without restriction or obligation to you.
+
+Derived Data does not include Submitted Materials in their original, unmodified form unless otherwise permitted under Section 4.
+
+### 3.4 Improvements
+
+ChemBricks owns all improvements, modifications, discoveries, developments, models, datasets, workflows, inventions, and other technology created, identified, or improved through:
+
+- operation of the Service;
+- analysis of Submitted Materials;
+- analysis of Outputs;
+- user interactions with the Service;
+- observed usage patterns; or
+- feedback or suggestions provided by users.
+
+No compensation, attribution, royalty, or accounting is owed to you in connection with such improvements.
+
+### 3.5 No implied rights
+
+No license or right is granted by implication, estoppel, exhaustion, or otherwise. All rights not expressly granted to you are reserved by ChemBricks.
+
+## 4. Rights granted to ChemBricks in Submitted Materials
+
+By submitting Submitted Materials, you grant ChemBricks, its affiliates, contractors, service providers, successors, and assigns a worldwide, perpetual, irrevocable, royalty-free, fully paid-up, transferable, and sublicensable license to:
+
+- access, collect, receive, host, store, archive, cache, copy, and reproduce Submitted Materials;
+- process, analyze, classify, annotate, label, transform, translate, adapt, modify, and create derivative works from Submitted Materials;
+- combine Submitted Materials with information from ChemBricks or third-party sources;
+- use Submitted Materials to provide, operate, administer, secure, test, validate, maintain, and improve the Service;
+- use Submitted Materials to train, fine-tune, evaluate, benchmark, calibrate, validate, and improve models, algorithms, prediction systems, and datasets;
+- develop new models, methods, datasets, products, features, workflows, and commercial services;
+- generate and commercialize Derived Data, models, datasets, products, and services;
+- retain Submitted Materials and information derived from them following expiration or termination of your access; and
+- otherwise use and exploit Submitted Materials for any lawful research, operational, developmental, security, analytical, or commercial purpose.
+
+This license survives termination of your account and termination or expiration of this License.
+
+ChemBricks may disclose Submitted Materials to its affiliates, personnel, contractors, cloud-service providers, professional advisers, research collaborators, potential acquirers, financing sources, and other service providers where ChemBricks considers that disclosure reasonably appropriate for the purposes described above.
+
+ChemBricks is not required to segregate Submitted Materials from other data, maintain Submitted Materials in a particular jurisdiction, or return or delete Submitted Materials except where required by applicable law or expressly agreed in a separate written agreement signed by ChemBricks.
+
+## 5. Submitted Materials are not confidential
+
+Submitted Materials will not be treated as confidential, proprietary, privileged, or subject to any duty of confidentiality unless ChemBricks has expressly agreed otherwise in a separate written agreement signed by an authorized ChemBricks representative.
+
+You must not submit:
+
+- trade secrets or confidential business information;
+- personal data or personally identifiable information;
+- patient, clinical, health, or genetic information;
+- controlled, classified, export-restricted, or regulated information;
+- information subject to contractual confidentiality obligations;
+- third-party proprietary datasets that you are not authorized to license; or
+- any material whose submission or use by ChemBricks would violate applicable law or third-party rights.
+
+You assume all risk arising from the submission of Submitted Materials.
+
+## 6. Your representations and responsibilities
+
+You represent, warrant, and agree that:
+
+1. you possess all rights, licenses, permissions, consents, and legal authority necessary to submit the Submitted Materials and grant the rights described in this License;
+2. the Submitted Materials and ChemBricks’ authorized use of them will not infringe, misappropriate, or violate any intellectual-property, confidentiality, privacy, contractual, database, publicity, or other rights;
+3. you will use the Service only for lawful Research Purposes;
+4. you are responsible for all activity performed through your account, credentials, integrations, or systems;
+5. you will independently evaluate the accuracy, suitability, legality, and safety of all Outputs;
+6. you will not rely on Outputs without appropriate expert review and experimental validation; and
+7. you will comply with all applicable laws, regulations, institutional policies, ethical requirements, and third-party obligations.
+
+## 7. Prohibited uses
+
+Unless ChemBricks provides prior written authorization, you may not directly or indirectly:
+
+### 7.1 Commercial use
+
+- use the Service or Outputs for any commercial purpose;
+- use the Service in connection with paid consulting, contract research, product development, process development, customer services, licensing, manufacturing, procurement, investment, or commercial decision-making;
+- incorporate an Output into a commercial product, service, database, workflow, or deliverable;
+- use the Service for internal research or development at a for-profit organization; or
+- obtain commercial advantage from access to the Service or Outputs.
+
+### 7.2 Redistribution and access
+
+- sell, license, sublicense, rent, lease, assign, distribute, publish, transfer, or commercially exploit access to the Service;
+- provide access to the Service through a proxy, wrapper, application, interface, platform, or third-party service;
+- disclose or share authentication credentials, API keys, access tokens, or account access;
+- redistribute Outputs in bulk;
+- create a public or private database primarily composed of Outputs; or
+- make the Service or substantial portions of its functionality available to another person or organization.
+
+### 7.3 Reverse engineering and model extraction
+
+- reverse engineer, decompile, disassemble, decode, translate, inspect, reconstruct, or attempt to discover any ChemBricks Technology;
+- determine or infer model weights, parameters, architecture, training data, algorithms, internal logic, system prompts, methods, or implementation details;
+- use automated, repeated, adaptive, adversarial, or systematic queries to extract, approximate, clone, replicate, or substitute for the Service;
+- perform membership inference, data extraction, model inversion, parameter extraction, or similar attacks;
+- use Outputs to train, fine-tune, distil, calibrate, validate, benchmark, or improve another model, algorithm, prediction system, or competing service;
+- create synthetic training data from Outputs;
+- compare Outputs systematically to create a substitute model or lookup database; or
+- assist another person in conducting any of the foregoing activities.
+
+### 7.4 Competitive use
+
+- use the Service or Outputs to develop, support, evaluate, improve, or market a product or service that competes with ChemBricks;
+- conduct competitive analysis of ChemBricks;
+- publish or distribute comparative performance tests without ChemBricks’ prior written approval; or
+- use the Service to reproduce a material portion of ChemBricks’ capabilities.
+
+### 7.5 Security and misuse
+
+- bypass, disable, interfere with, or circumvent usage limits, rate limits, access restrictions, authentication, monitoring, or security measures;
+- probe, scan, or test the vulnerability of the Service;
+- introduce malware, malicious code, or harmful content;
+- overload, disrupt, degrade, or impair the Service;
+- access the Service using unauthorized automation;
+- misrepresent the source, accuracy, or nature of an Output;
+- use the Service for unlawful, fraudulent, deceptive, harmful, or abusive purposes; or
+- use the Service in violation of sanctions, export-control laws, or applicable regulations.
+
+## 8. Research publications and attribution
+
+You may include limited Outputs and conclusions derived from them in a non-commercial academic publication, thesis, poster, or presentation, provided that:
+
+1. you acknowledge ChemBricks;
+2. you clearly identify the results as computational predictions;
+3. you do not disclose confidential or non-public information concerning the ChemBricks Technology;
+4. you do not publish Outputs in quantities sufficient to create or facilitate a substitute dataset, model, or service;
+5. you do not imply ChemBricks’ sponsorship, endorsement, validation, or approval; and
+6. you comply with any citation, model-version, or attribution instructions supplied by ChemBricks.
+
+The acknowledgement should substantially state:
+
+> Predictions were generated using the ChemBricks hosted prediction service provided by ChemBricks Inc. The predictions are computational results and were independently evaluated by the authors.
+
+For publications materially dependent on the Service, ChemBricks may require that you provide ChemBricks with a copy of the proposed publication at least 30 days before public disclosure.
+
+ChemBricks may request removal of confidential information, security-sensitive information, misleading descriptions, or information that could enable reconstruction of the Service. ChemBricks may also request a reasonable delay, not exceeding an additional 60 days, to permit the filing of intellectual-property applications.
+
+You remain solely responsible for the content and conclusions of your publication.
+
+## 9. Feedback
+
+If you provide feedback, ideas, feature requests, evaluations, corrections, recommendations, or suggestions concerning the Service (**“Feedback”**), you irrevocably assign to ChemBricks all right, title, and interest in and to that Feedback.
+
+To the extent an assignment is ineffective, you grant ChemBricks a worldwide, perpetual, irrevocable, exclusive, royalty-free, fully paid-up, transferable, and sublicensable license to use, reproduce, modify, commercialize, and otherwise exploit the Feedback for any purpose.
+
+ChemBricks has no obligation to compensate, credit, consult, or report to you regarding its use of Feedback.
+
+## 10. Monitoring and enforcement
+
+ChemBricks may monitor, record, analyze, and retain information concerning access to and use of the Service for:
+
+- security;
+- abuse prevention;
+- compliance monitoring;
+- product development;
+- model improvement;
+- performance analysis;
+- enforcement of this License; and
+- other lawful business purposes.
+
+ChemBricks may investigate suspected violations and may require information reasonably necessary to verify compliance.
+
+You must cooperate with reasonable investigations concerning potential misuse of the Service.
+
+ChemBricks may impose or change rate limits, query limits, storage limits, functionality restrictions, and other technical or operational controls at any time.
+
+## 11. Availability and modification of the Service
+
+ChemBricks has no obligation to:
+
+- maintain or continue the Service;
+- provide any particular feature, model, endpoint, tool, or Output;
+- preserve Submitted Materials or Outputs;
+- provide support, maintenance, updates, or error corrections;
+- meet any uptime, performance, accuracy, or service-level commitment; or
+- provide advance notice of changes.
+
+ChemBricks may modify, restrict, suspend, discontinue, replace, or remove any part of the Service at any time, with or without notice and without liability.
+
+Models, datasets, methods, and Outputs may change between requests or over time.
+
+## 12. Experimental nature and no reliance
+
+The Service is experimental and intended solely for research and evaluation.
+
+Outputs are computational predictions and may be incomplete, inaccurate, unstable, non-reproducible, misleading, or unsuitable for a particular purpose.
+
+Outputs are not a substitute for:
+
+- experimental validation;
+- professional scientific judgment;
+- toxicological, environmental, or safety assessment;
+- engineering review;
+- patent or freedom-to-operate analysis;
+- regulatory review;
+- clinical or medical advice; or
+- independent verification.
+
+You must not use the Service or Outputs as the sole basis for decisions involving health, clinical care, human safety, environmental release, regulated products, large-scale manufacturing, or other high-risk activities.
+
+ChemBricks does not represent that any suggested molecule, material, reaction, process, or use is safe, lawful, synthesizable, effective, non-infringing, commercially viable, or suitable for any intended purpose.
+
+## 13. Third-party services
+
+The Service may interoperate with or depend upon third-party platforms, models, databases, software, connectors, infrastructure, or services.
+
+ChemBricks does not control and is not responsible for third-party services, their availability, their security, or their terms.
+
+Your use of third-party services may be subject to separate terms and privacy policies.
+
+ChemBricks is not responsible for any disclosure, modification, loss, or use of data caused by a third-party service.
+
+## 14. Suspension and termination
+
+ChemBricks may suspend, restrict, or terminate your access immediately, with or without notice, for any reason, including where ChemBricks believes that:
+
+- you violated this License;
+- your use creates legal, reputational, operational, scientific, or security risk;
+- your use may harm ChemBricks, its partners, or other users;
+- continued access is inconsistent with ChemBricks’ business interests; or
+- suspension or termination is required by law or a third-party provider.
+
+Upon suspension or termination:
+
+1. your right to access and use the Service immediately ends;
+2. you must cease all use of non-public Outputs;
+3. you must delete authentication credentials and any materials ChemBricks instructs you to delete;
+4. ChemBricks may delete or retain account information, Submitted Materials, and Outputs at its discretion, subject to applicable law; and
+5. the rights granted to ChemBricks under this License remain in effect.
+
+ChemBricks is not liable for any suspension, termination, deletion, loss of access, or loss of data.
+
+Sections concerning ownership, Submitted Materials, restrictions, confidentiality, Feedback, disclaimers, indemnification, liability, governing law, and other provisions that by their nature should survive will survive termination.
+
+## 15. Disclaimer of warranties
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICE, CHEMBRICKS TECHNOLOGY, DOCUMENTATION, AND OUTPUTS ARE PROVIDED **“AS IS,” “AS AVAILABLE,” AND “WITH ALL FAULTS.”**
+
+CHEMBRICKS DISCLAIMS ALL WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF:
+
+- ACCURACY;
+- COMPLETENESS;
+- RELIABILITY;
+- REPRODUCIBILITY;
+- AVAILABILITY;
+- SECURITY;
+- MERCHANTABILITY;
+- SATISFACTORY QUALITY;
+- FITNESS FOR A PARTICULAR PURPOSE;
+- TITLE;
+- QUIET ENJOYMENT;
+- NON-INFRINGEMENT; AND
+- ABSENCE OF ERRORS OR HARMFUL COMPONENTS.
+
+CHEMBRICKS DOES NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR SUITABLE FOR YOUR RESEARCH.
+
+NO INFORMATION OR ADVICE PROVIDED BY CHEMBRICKS CREATES A WARRANTY UNLESS EXPRESSLY SET OUT IN A SEPARATE WRITTEN AGREEMENT SIGNED BY CHEMBRICKS.
+
+## 16. Indemnification
+
+To the maximum extent permitted by law, you will defend, indemnify, and hold harmless ChemBricks, its affiliates, licensors, service providers, officers, directors, employees, contractors, representatives, successors, and assigns from and against all claims, demands, proceedings, investigations, damages, judgments, settlements, liabilities, penalties, fines, losses, costs, and expenses, including reasonable legal fees, arising out of or relating to:
+
+- your access to or use of the Service or Outputs;
+- your Submitted Materials;
+- ChemBricks’ authorized use of Submitted Materials;
+- your research, publications, products, decisions, or activities;
+- your violation of this License;
+- your violation of applicable law;
+- your infringement, misappropriation, or violation of third-party rights; or
+- any allegation that ChemBricks’ authorized use of Submitted Materials violates another person’s rights.
+
+ChemBricks may assume exclusive control of the defense of any indemnified matter. You may not settle an indemnified claim without ChemBricks’ prior written approval.
+
+## 17. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, CHEMBRICKS AND ITS AFFILIATES, LICENSORS, SERVICE PROVIDERS, OFFICERS, DIRECTORS, EMPLOYEES, AND CONTRACTORS WILL NOT BE LIABLE FOR:
+
+- INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES;
+- LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OPPORTUNITY, GOODWILL, OR REPUTATION;
+- RESEARCH DELAYS OR FAILED EXPERIMENTS;
+- PROCUREMENT OF SUBSTITUTE SERVICES;
+- DAMAGE ARISING FROM RELIANCE ON OUTPUTS;
+- INTELLECTUAL-PROPERTY CLAIMS RELATING TO YOUR USE OF OUTPUTS; OR
+- INTERRUPTION, SUSPENSION, MODIFICATION, OR TERMINATION OF THE SERVICE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, CHEMBRICKS’ TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SERVICE, OUTPUTS, OR THIS LICENSE WILL NOT EXCEED THE GREATER OF:
+
+1. THE AMOUNT YOU PAID CHEMBRICKS FOR THE SERVICE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR
+2. ONE HUNDRED UNITED STATES DOLLARS (US$100).
+
+These exclusions and limitations apply regardless of the legal theory and even if ChemBricks was advised that damages were possible.
+
+## 18. Export controls and sanctions
+
+You may not access or use the Service where such access or use is prohibited by applicable export-control, sanctions, or trade laws.
+
+You represent that you are not:
+
+- located in a jurisdiction subject to comprehensive United States sanctions;
+- identified on a restricted-party list; or
+- acting on behalf of a restricted person or prohibited jurisdiction.
+
+You are responsible for ensuring that your use of the Service and Outputs complies with applicable export-control, sanctions, chemical-control, and trade laws.
+
+## 19. Changes to this License
+
+ChemBricks may modify this License at any time by posting an updated version or otherwise notifying users.
+
+Unless otherwise stated, updated terms become effective when posted.
+
+Your continued access to or use of the Service following the effective date of an updated version constitutes acceptance of the updated License.
+
+If you do not agree to an updated version, you must stop using the Service.
+
+## 20. Governing law and jurisdiction
+
+This License and any dispute arising out of or relating to it are governed by the laws of the State of Delaware, United States, without regard to conflict-of-law principles.
+
+Subject to any rights that cannot lawfully be waived, the state and federal courts located in Delaware will have exclusive jurisdiction over disputes arising from or relating to this License.
+
+You and ChemBricks waive, to the maximum extent permitted by law, any right to a jury trial in connection with such disputes.
+
+## 21. General provisions
+
+### 21.1 Assignment
+
+You may not assign, delegate, sublicense, or transfer this License or any rights under it without ChemBricks’ prior written approval.
+
+ChemBricks may assign or transfer this License, in whole or in part, without restriction or notice.
+
+### 21.2 Entire agreement
+
+This License constitutes the entire agreement between you and ChemBricks concerning the Service unless the parties have entered into a separate written agreement expressly superseding this License.
+
+### 21.3 Order of precedence
+
+Where a separate written agreement signed by ChemBricks conflicts with this License, the separate written agreement controls only to the extent of the conflict.
+
+### 21.4 No waiver
+
+A failure or delay by ChemBricks in enforcing a provision does not waive its right to enforce that provision later.
+
+### 21.5 Severability
+
+If any provision is held invalid or unenforceable, it will be modified to the minimum extent necessary to make it enforceable, and the remaining provisions will remain effective.
+
+### 21.6 No partnership
+
+This License does not create a partnership, joint venture, employment, fiduciary, agency, or franchise relationship.
+
+### 21.7 No third-party beneficiaries
+
+Except for ChemBricks affiliates and indemnified parties, this License creates no third-party beneficiary rights.
+
+### 21.8 Electronic communications
+
+You agree that notices and communications may be provided electronically, including through the Service, by email, or by posting on a ChemBricks website.
+
+## 22. Commercial licensing
+
+Any commercial use, internal industrial research, high-volume access, redistribution, product integration, private deployment, or use outside a Research Purpose requires a separate written commercial agreement with ChemBricks.
+
+Commercial licensing inquiries may be sent to:
+
+**explore@chembricks.ai**
+
+---
+
+**© 2026 ChemBricks Inc. All rights reserved.**
+
+**This is a proprietary license. No open-source license is granted.**
