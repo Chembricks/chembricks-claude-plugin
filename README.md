@@ -17,13 +17,15 @@ Register at [cmbx.ai](https://cmbx.ai) and create an API key in the
 self-service panel. Your key starts with `cmbx_live_` and works for both
 the prediction API and the MCP server.
 
-### 2. Set the environment variable
+### 2. Set the environment variable (Claude Code)
 
 ```bash
 export CHEMBRICKS_TOKEN="cmbx_live_<your-token>"
 ```
 
-Add this to your `~/.zshrc` or `~/.bashrc` to persist it across sessions.
+Add this to your `~/.zshrc` or `~/.bashrc` to persist it across sessions. The
+Claude Desktop extension does not need this variable — it asks for the key in
+its own settings window and keeps it in your operating system's secure storage.
 
 ### 3. Install the plugin
 
@@ -49,6 +51,38 @@ Reload plugins and try a tool:
 ```
 
 Then ask Claude: *"Predict the pKa and aqueous solubility of aspirin."*
+
+## Install in Claude Desktop
+
+Claude Desktop installs MCP servers as extensions. Download
+`chembricks-<version>.mcpb` from the
+[latest release](https://github.com/Chembricks/chembricks-claude-plugin/releases/latest)
+and open it in any of these ways:
+
+- double-click the file;
+- drag it into the Claude Desktop window;
+- **Settings > Extensions > Advanced settings > Install Extension…**.
+
+The installation window asks for your `cmbx_live_*` key. Leave the server URL
+field as it is unless you were given a different endpoint.
+
+The extension starts a small local process on Claude Desktop's own Node
+runtime, so nothing has to be installed first. That process computes nothing:
+it forwards MCP messages to `https://mcp.cmbx.ai/mcp/`, which is where the
+chemistry runs, and it holds the connection open through long idle periods.
+
+## Where Each Install Works
+
+The plugin reaches the server over HTTPS; the extension starts a local process
+that does the same. Which one works depends on the surface:
+
+| | Chat (web, desktop, mobile) | Cowork | Claude Code |
+|---|---|---|---|
+| Plugin (remote server in `.mcp.json`) | Yes, after you connect it on the plugin's **Connectors** tab | Yes | Yes |
+| Extension (`.mcpb`) | No — chat does not run local servers | Yes, when the session runs on your computer | Yes |
+
+Install one of the two. With both, Claude sees the same 150 tools twice and
+spends context on the duplicate.
 
 ## How the Skill Works
 
@@ -123,12 +157,14 @@ not route to them when Claude can handle that work natively.
 
 ## Authentication
 
-This plugin connects to the Chembricks MCP server at
-`https://mcp.cmbx.ai/mcp/` using a Bearer token. Set the
-`CHEMBRICKS_TOKEN` environment variable with your `cmbx_live_*` key.
+Both installs reach `https://mcp.cmbx.ai/mcp/` with the same `cmbx_live_*` key
+as a Bearer token, and neither keeps the key in this repository:
 
-The token is never stored in the plugin — it is read from your environment
-at runtime via the `${CHEMBRICKS_TOKEN}` placeholder in `.mcp.json`.
+- **Plugin:** the key is read from your environment at runtime, through the
+  `${CHEMBRICKS_TOKEN}` placeholder in `.mcp.json`.
+- **Extension:** Claude Desktop asks for the key during installation, keeps it
+  in your operating system's secure storage, and passes it to the local
+  process as an environment variable, so it never appears in the process list.
 
 ## Links
 
